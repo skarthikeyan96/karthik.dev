@@ -53,6 +53,8 @@ const Blog: NextPage = () => {
           <div className="pt-12">
             {posts?.map((post: Post, index: number) => {
               return (
+                <div key={index} className="pb-8">
+
                 <Post
                   id={index}
                   title={post.title}
@@ -60,6 +62,7 @@ const Blog: NextPage = () => {
                   url={post.url}
                   created_at={post.created_at}
                 />
+                </div>
               );
             })}
           </div>

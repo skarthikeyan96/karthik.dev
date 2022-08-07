@@ -49,13 +49,14 @@ const Home: NextPage = () => {
             <div className="pt-4">
               {recentPosts?.map((post: Post, index: number) => {
                 return (
+                  <div key={index} className="pb-8">
                   <Post
                     id={index}
                     title={post.title}
                     description={post.description}
                     url={post.url}
                     created_at={post.created_at}
-                  />
+                  /></div>
                 );
               })}
             </div>

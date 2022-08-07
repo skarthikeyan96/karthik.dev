@@ -4,7 +4,7 @@ import React from "react";
 
 const Post = ({ id, title, description, url, created_at }: Post) => {
   return (
-    <div className="mb-8" key={id}>
+    <div>
       <p className="text-gray-600 ">
         {created_at && new Date(created_at).toDateString()}
       </p>
