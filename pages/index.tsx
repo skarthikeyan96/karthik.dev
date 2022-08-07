@@ -1,86 +1,69 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
+import type { NextPage } from "next";
+import Link from "next/link";
+import { useEffect, useState } from "react";
 
 const Home: NextPage = () => {
+  const [posts, setPost] = useState<Array<{}>>();
+
+  const fetchAndStoreBlogPosts = async () => {
+    let response = await fetch(
+      `https://dev.to/api/articles?username=imkarthikeyan`
+    );
+    let posts = await response.json();
+    setPost(posts);
+  };
+
+  useEffect(() => {
+    fetchAndStoreBlogPosts();
+  }, []);
+
+  const renderPost = () => {
+    posts?.map((post) => {});
+  };
+
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center py-2">
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
-        <h1 className="text-6xl font-bold">
-          Welcome to{' '}
-          <a className="text-blue-600" href="https://nextjs.org">
-            Next.js!
+    <div className="flex flex-col justify-center p-8">
+      <nav className="w-full max-w-2xl flex items-center justify-center mx-auto">
+        <Link href="/" className="mr-2">
+          <a className="font-normal  hidden md:inline-block p-1 sm:px-3 sm:py-2  transition-all">
+            Home
           </a>
-        </h1>
+        </Link>
+        <Link href="/projects">
+          <a className="font-normal  hidden md:inline-block p-1 sm:px-3 sm:py-2  transition-all">
+            Projects
+          </a>
+        </Link>
+        <Link href="/blog">
+          <a className="font-normal  hidden md:inline-block p-1 sm:px-3 sm:py-2  transition-all">
+            Blogs
+          </a>
+        </Link>
+      </nav>
 
-        <p className="mt-3 text-2xl">
-          Get started by editing{' '}
-          <code className="rounded-md bg-gray-100 p-3 font-mono text-lg">
-            pages/index.tsx
-          </code>
-        </p>
-
-        <div className="mt-6 flex max-w-4xl flex-wrap items-center justify-around sm:w-full">
-          <a
-            href="https://nextjs.org/docs"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Documentation &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Find in-depth information about Next.js features and its API.
+      <main className="flex flex-col justify-center px-8 mt-16">
+        <div className="flex flex-col justify-center items-start max-w-2xl mx-auto pb-16">
+          <div className="flex flex-col pr-8">
+            <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-1 text-black ">
+              Karthikeyan
+            </h1>
+            <h2 className="mb-4 pt-1">
+              Software Engineer
+              <span className="font-semibold"> @ Granicus</span>
+            </h2>
+            <p className="text-gray-600  mb-16">
+              I am a software developer specialised in Javascript and love to
+              solve problems using code. I like to share my knowledge by writing
+              technical blogs.
             </p>
-          </a>
-
-          <a
-            href="https://nextjs.org/learn"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Learn &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Learn about Next.js in an interactive course with quizzes!
-            </p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Examples &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Discover and deploy boilerplate example Next.js projects.
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Deploy &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+          </div>
+          <div className="text-3xl font-bold">
+            <h2> Recent Posts </h2>
+          </div>
         </div>
       </main>
-
-      <footer className="flex h-24 w-full items-center justify-center border-t">
-        <a
-          className="flex items-center justify-center gap-2"
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-        </a>
-      </footer>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
