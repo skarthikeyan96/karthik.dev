@@ -1,0 +1,29 @@
+ [
+    {
+        "id" : "1",
+        "title" : "Hacker news clone",
+        "description": "Hacker news clone built with remix and deployed in cloudflare pages.",
+        "url" : "https://github.com/skarthikeyan96/hacker-news-clone-remix",
+        "deployedUrl" : "https://hacker-news-clone-remix.pages.dev/"
+    },
+    {
+        "id": "2",
+        "title" : "React tailwind dashboard",
+        "description" : "Responsive dashboard application built with react , tailwind and recharts.",
+        "url": "https://github.com/skarthikeyan96/react-tailwind-dashboard",
+        "deployedUrl": "http://react-tailwind-dashboard-peach.vercel.app/"
+    },
+    {
+        "id:": "3",
+        "title": "Kross post",
+        "description": "A simple application to cross post articles across dev.to, hashnode and medium.",
+        "url": "https://github.com/skarthikeyan96/kross-post-typescript",
+        "deployedUrl": "https://kross-post-typescript.vercel.app/"
+    },
+    {
+        "id": "4",
+        "title": "Awesome Readme",
+        "description": "Github Readme containing recent blog post and profile generated using Javascript and Github actions.",
+        "url": "https://github.com/skarthikeyan96/skarthikeyan96"
+    }
+]
