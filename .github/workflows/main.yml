@@ -23,9 +23,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
 
-      - name: Audit URLs using Lighthouse
-        uses: treosh/lighthouse-ci-action@v9
+      - name: Audit URLs using Lighthouse      
+        uses: foo-software/lighthouse-check-action@master
         with:
-          urls: |
-            https://karthik-dev.vercel.app/
-            https://karthik-dev.vercel.app/blog
+          urls: 'https://karthik-dev.vercel.app/, https://karthik-dev.vercel.app/blog'
