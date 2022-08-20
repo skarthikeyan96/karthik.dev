@@ -25,5 +25,12 @@
         "title": "Awesome Readme",
         "description": "Github Readme containing recent blog post and profile generated using Javascript and Github actions.",
         "url": "https://github.com/skarthikeyan96/skarthikeyan96"
+    },
+    {
+        "id": "5",
+        "title": "Find Spaces",
+        "description": "Application to search spaces in twitter and also able to add reminder to the calendar",
+        "url": "https://github.com/skarthikeyan96/find-spaces",
+        "deployedUrl" : "https://find-spaces.vercel.app/"
     }
 ]
