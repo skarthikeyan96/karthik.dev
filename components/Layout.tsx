@@ -1,33 +1,64 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
-
+import { boldFontClass, navLogoClass, normalFontClass } from "../lib/utils";
+import { useTheme } from "next-themes";
+import { MoonIcon, SunIcon } from "@heroicons/react/24/solid";
+import ThemeToggler from "./ThemeToggler";
 
 interface Layout {
-    children: JSX.Element
+  children: JSX.Element;
 }
 
-
 const Layout = ({ children }: Layout) => {
-    const router = useRouter();
+  const router = useRouter();
 
   return (
-    <div className="flex flex-col p-8">
-      <nav className="w-full max-w-2xl flex mx-auto items-center justify-center">
-        <Link href="/" >
-          <a className={router.pathname === "/" ? "font-bold   md:inline-block p-1 sm:px-3 sm:py-2  transition-all" :"font-normal   md:inline-block p-1 sm:px-3 sm:py-2  transition-all" }>
-            Home
-          </a>
-        </Link>
-        <Link href="/projects">
-          <a className={router.pathname === "/projects" ? "font-bold   md:inline-block p-1 sm:px-3 sm:py-2  transition-all" :"font-normal   md:inline-block p-1 sm:px-3 sm:py-2  transition-all" }>
-            Projects
-          </a>
-        </Link>
-        <Link href="/blog">
-          <a className={router.pathname === "/blog" ? "font-bold   md:inline-block p-1 sm:px-3 sm:py-2  transition-all" :"font-normal   md:inline-block p-1 sm:px-3 sm:py-2  transition-all" }>
-            Blogs
-          </a>
-        </Link>
+    <div className="flex flex-col">
+      <nav className="w-full  flex items-center justify-between  shadow-sm p-6">
+        <div>
+          <Link href="/">
+            <a
+              className={`${navLogoClass} font-extrabold text-xl tracking-normal`}
+            >
+              Karthikeyan
+            </a>
+          </Link>
+        </div>
+        <div className="flex space-x-8 items-center">
+          <Link href="/">
+            <a
+              className={
+                router.pathname === "/" ? boldFontClass : normalFontClass
+              }
+            >
+              Home
+            </a>
+          </Link>
+          <Link href="/projects">
+            <a
+              className={
+                router.pathname === "/projects"
+                  ? boldFontClass
+                  : normalFontClass
+              }
+            >
+              Projects
+            </a>
+          </Link>
+          <Link href="/blog">
+            <a
+              className={
+                router.pathname === "/blog" ? boldFontClass : normalFontClass
+              }
+            >
+              Blogs
+            </a>
+          </Link>
+
+          <Link href="#">
+            <ThemeToggler />
+          </Link>
+        </div>
       </nav>
 
       <main className="flex flex-col  px-4 mt-16">
