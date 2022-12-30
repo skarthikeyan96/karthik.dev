@@ -8,6 +8,34 @@ interface Layout {
   children: JSX.Element;
 }
 
+const navItems = [
+  {
+    name: "home",
+    route: "/",
+  },
+  {
+    name: "blog",
+    route: "/blog",
+  },
+  {
+    name: "projects",
+    route: "/projects",
+  },
+  {
+    name: "experiments",
+    route: "/experiments",
+  },
+  {
+    name: "resume",
+    route: "https://peerlist.io/karthik_coder", // link to the peerlist or google docs
+    setTarget: true
+  },
+  {
+    name: "socials",
+    route: "/socials",
+  },
+];
+
 const Layout = ({ children }: Layout) => {
   const router = useRouter();
   const [isShowing, setIsShowing] = useState(false);
@@ -41,35 +69,25 @@ const Layout = ({ children }: Layout) => {
             </Link>
           </div>
           <div className="flex space-x-8 items-center">
-            <Link href="/">
-              <a
-                className={
-                  router.pathname === "/" ? boldFontClass : normalFontClass
-                }
-              >
-                Home
-              </a>
-            </Link>
-            <Link href="/projects">
-              <a
-                className={
-                  router.pathname === "/projects"
-                    ? boldFontClass
-                    : normalFontClass
-                }
-              >
-                Projects
-              </a>
-            </Link>
-            <Link href="/blog">
-              <a
-                className={
-                  router.pathname === "/blog" ? boldFontClass : normalFontClass
-                }
-              >
-                Blogs
-              </a>
-            </Link>
+            
+          {navItems.map((item, index) => {
+            if (item.route.length !== 0) {
+              return (
+                <Link href={item.route} key={index}>
+                  <a
+                    target={item.setTarget ? "_blank" : ""}
+                    className={
+                      router.pathname === item.route
+                        ? `font-bold capitalize`
+                        : `font-normal capitalize`
+                    }
+                  >
+                    {item.name}
+                  </a>
+                </Link>
+              );
+            }
+          })}
 
             <Link href="#">
               <ThemeToggler />
@@ -84,16 +102,14 @@ const Layout = ({ children }: Layout) => {
         </main>
       </div>
 
-{
-  /**Mobile nav */
-}
-      <div className="md:hidden fixed bottom-0 bg-white px-6 py-8 w-full z-0 border border-1 dark:bg-black">
+      {/**Mobile nav */}
+      <div className="md:hidden fixed bottom-0 bg-white px-6 py-8 w-full z-0  border-t-2 border-b-gray-900 dark:border-0 dark:bg-black">
         <div>
           <a
             className={
               isShowing
                 ? `hidden`
-                : `${navLogoClass} font-extrabold text-xl tracking-normal`
+                : `${navLogoClass} font-extrabold text-xl tracking-normal border-1`
             }
             onClick={() => setIsShowing(!isShowing)}
           >
@@ -108,35 +124,27 @@ const Layout = ({ children }: Layout) => {
               : `hidden`
           }
         >
-          <Link href="/">
-            <a
-              className={router.pathname === "/" ? `font-bold` : `font-normal`}
-            >
-              Home
-            </a>
-          </Link>
-          <Link href="/projects">
-            <a
-              className={
-                router.pathname === "/projects" ? `font-bold` : `font-normal`
-              }
-            >
-              Projects
-            </a>
-          </Link>
-          <Link href="/blog">
-            <a
-              className={
-                router.pathname === "/blog" ? `font-bold` : `font-normal`
-              }
-            >
-              Blogs
-            </a>
-          </Link>
+          {navItems.map((item, index) => {
+            if (item.route.length !== 0) {
+              return (
+                <Link href={item.route} key={index}>
+                  <a
+                    className={
+                      router.pathname === item.route
+                        ? `font-bold capitalize`
+                        : `font-normal capitalize`
+                    }
+                  >
+                    {item.name}
+                  </a>
+                </Link>
+              );
+            }
+          })}
 
           <Link href="#">
             <div className="w-full">
-              <ThemeToggler isMobileNavVisible={isShowing}/>
+              <ThemeToggler isMobileNavVisible={isShowing} />
             </div>
           </Link>
         </div>
