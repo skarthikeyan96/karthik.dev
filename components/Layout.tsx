@@ -87,7 +87,7 @@ const Layout = ({ children }: Layout) => {
 {
   /**Mobile nav */
 }
-      <div className="md:hidden fixed bottom-0 bg-white px-6 py-8 w-full z-0 dark:bg-black">
+      <div className="md:hidden fixed bottom-0 bg-white px-6 py-8 w-full z-0 border border-1 dark:bg-black">
         <div>
           <a
             className={
