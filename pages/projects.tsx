@@ -13,12 +13,7 @@ const Projects: NextPage = () => {
             return (
                 <div key={index} className="pb-8">
 
-              <Post
-                id={index}
-                title={project.title}
-                description={project.description}
-                url={project.url}
-              />
+              
               </div>
             );
           })}

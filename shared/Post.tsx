@@ -1,18 +1,30 @@
+import Link from "next/link";
 import React from "react";
 
 
 
-const Post = ({ id, title, description, url, created_at }: Post) => {
+const Post = ({ id, title, description, url, slug, created_at }: Post) => {
   return (
     <div>
       <p className="text-gray-600 ">
         {created_at && new Date(created_at).toDateString()}
       </p>
 
-      <a href={url} target="_blank" rel="noreferrer noopener">
-        <h3 className="w-full font-bold tracking-tight"> {title} </h3>
-        <p className="text-gray-600 "> {description} </p>
-      </a>
+      <Link className="w-full" href={`/blogs/${slug}`} key={id}>
+            <div className="w-full mb-8 cursor-pointer">
+              <div className="flex flex-col justify-between md:flex-row">
+                <h4 className="w-full mb-2 text-lg font-medium text-gray-900 md:text-xl dark:text-gray-100">
+                  {title}
+                </h4>
+                {/* <p className="w-32 mb-4 text-left text-gray-500 md:text-right md:mb-0">
+                  0
+                </p> */}
+              </div>
+              <p className="text-gray-600 dark:text-gray-400">
+                {description}
+              </p>
+            </div>
+          </Link>
     </div>
   );
 };
