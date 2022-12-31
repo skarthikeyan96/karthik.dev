@@ -4,6 +4,7 @@ metaTitle: "How to serve an asset through jsdelivr CDN from Github."
 metaDesc: "In this  post we are going to see how we can serve ui assets from github via CDN.   TLDR; CDN (conten..."
 date: "2021-02-21"
 slug: how-to-serve-an-asset-through-jsdelivr-cdn-from-github-4g61
+coverImage: "https://res.cloudinary.com/practicaldev/image/fetch/s--jSYsnPdh--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/bxoqrv4k3npn4rha2r4g.jpeg"
 published: true
 ---
 

@@ -4,6 +4,7 @@ metaTitle: "How to build a Todo API using FastAPI and MongoDB"
 metaDesc: "Hello everyone,   In this tutorial, we will be seeing how to create API for todo list application..."
 date: "2022-11-26"
 slug: how-to-build-a-todo-api-using-fastapi-and-mongodb-1en8
+coverImage: "null"
 published: true
 ---
 

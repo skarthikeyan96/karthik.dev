@@ -4,6 +4,7 @@ metaTitle: "#1 Getting started with Preact - Preact Series"
 metaDesc: "This is going to be three part tutorial series. In the first part , I will be explaining about Preact..."
 date: "2021-04-04"
 slug: 1-getting-started-with-preact-preact-series-4ca
+coverImage: "https://res.cloudinary.com/practicaldev/image/fetch/s--BwF54L4U--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/upa1u9tf2g8tksokossf.png"
 published: true
 ---
 

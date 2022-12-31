@@ -4,6 +4,7 @@ metaTitle: "How to deploy a react application present in a repository to Netlify
 metaDesc: "In this blog post , I will be sharing a problem I faced when trying to deploy a react app which is..."
 date: "2021-11-08"
 slug: how-to-deploy-a-react-application-present-in-a-repository-to-netlify--153
+coverImage: "https://res.cloudinary.com/practicaldev/image/fetch/s--q7kh2aX5--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/9cw4ehmze7yekkeji0xn.jpeg"
 published: true
 ---
 

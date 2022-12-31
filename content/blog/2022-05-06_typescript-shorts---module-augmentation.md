@@ -4,6 +4,7 @@ metaTitle: "Typescript Shorts - Module Augmentation"
 metaDesc: "Hello everyone,  In this blog post, we are going to learn about a concept is typescript which is..."
 date: "2022-05-06"
 slug: typescript-shorts-module-augmentation-36jb
+coverImage: "https://res.cloudinary.com/practicaldev/image/fetch/s--GqRZAxlp--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/msg1l4q1t6sazr2yosrw.png"
 published: true
 ---
 

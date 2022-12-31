@@ -4,6 +4,7 @@ metaTitle: "What is State management ?"
 metaDesc: "In this blog , I will be going over what is state management and why we need it. State management act..."
 date: "2021-05-27"
 slug: what-is-state-management-568b
+coverImage: "https://res.cloudinary.com/practicaldev/image/fetch/s--fxNyCCrU--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/q8zxh1d8wrez74buxpm7.jpg"
 published: true
 ---
 

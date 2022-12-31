@@ -4,6 +4,7 @@ metaTitle: "How to send a email using Sendgrid and Node.js ?"
 metaDesc: "In this blog, We will be seeing how to send a email with Nodejs and Sendgrid mail API.           ..."
 date: "2022-04-08"
 slug: how-to-send-a-email-using-sendgrid-and-nodejs--2l39
+coverImage: "https://res.cloudinary.com/practicaldev/image/fetch/s--01oqoGz1--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ip0fykoqkxphgo1647ko.png"
 published: true
 ---
 

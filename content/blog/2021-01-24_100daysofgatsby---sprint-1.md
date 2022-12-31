@@ -4,6 +4,7 @@ metaTitle: "#100daysofGatsby - Sprint 1"
 metaDesc: "In this blog series, I will be documenting my 100daysofGatsby journey. I will try to keep it as inter..."
 date: "2021-01-24"
 slug: 100daysofgatsby-sprint-1-55h1
+coverImage: "https://res.cloudinary.com/practicaldev/image/fetch/s--sR7j_TWu--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/rj6h8104l84ap8y29e71.png"
 published: true
 ---
 

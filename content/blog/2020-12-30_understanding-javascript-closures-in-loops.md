@@ -4,6 +4,7 @@ metaTitle: "Understanding JavaScript Closures in Loops"
 metaDesc: "In this blog, We will be going over the usage of the closures concept in javascript when working with..."
 date: "2020-12-30"
 slug: javascript-closure-in-loops-ebi
+coverImage: "https://res.cloudinary.com/practicaldev/image/fetch/s--wPT03sHK--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/yo59n3hntdl86hy1qrwn.jpg"
 published: true
 ---
 

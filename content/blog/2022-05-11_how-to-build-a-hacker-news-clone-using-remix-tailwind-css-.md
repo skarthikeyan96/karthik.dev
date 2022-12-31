@@ -4,6 +4,7 @@ metaTitle: "How to build a Hacker news clone using Remix, Tailwind css ?"
 metaDesc: "Hello everyone, In this tutorial we will be seeing how to build a simple Hacker news clone using..."
 date: "2022-05-11"
 slug: how-to-build-a-hacker-news-clone-using-remix-tailwind-css--4lp
+coverImage: "null"
 published: true
 ---
 

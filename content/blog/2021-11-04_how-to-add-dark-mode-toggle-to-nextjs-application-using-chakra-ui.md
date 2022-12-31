@@ -4,6 +4,7 @@ metaTitle: "How to add dark mode toggle to Next.js application using Chakra UI"
 metaDesc: "In this short blog post , I will be walking us through how we can add dark mode toggle to Next.js..."
 date: "2021-11-04"
 slug: how-to-add-dark-mode-toggle-to-nextjs-application-using-chakra-ui-a97
+coverImage: "https://res.cloudinary.com/practicaldev/image/fetch/s--glmBdlif--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/q505qsryaj3z8zdngek3.jpg"
 published: true
 ---
 

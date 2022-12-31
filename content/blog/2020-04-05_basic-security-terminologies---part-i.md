@@ -4,6 +4,7 @@ metaTitle: "Basic Security Terminologies - PART I"
 metaDesc: "Hello everyone, Happy Sunday 🎉  In this article, I will be covering some of the basic security termin..."
 date: "2020-04-05"
 slug: basic-security-terminologies-part-i-17oa
+coverImage: "null"
 published: true
 ---
 

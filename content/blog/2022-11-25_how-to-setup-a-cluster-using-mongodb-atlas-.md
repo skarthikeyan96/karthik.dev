@@ -4,6 +4,7 @@ metaTitle: "How to setup a Cluster using MongoDB atlas ?"
 metaDesc: "Hello everyone,   In this blog , we will be seeing how to create a cluster using MongoDB atlas.     ..."
 date: "2022-11-25"
 slug: how-to-setup-a-cluster-using-mongodb-atlas--2nni
+coverImage: "null"
 published: true
 ---
 

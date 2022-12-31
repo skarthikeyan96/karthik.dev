@@ -4,6 +4,7 @@ metaTitle: "How to build a movie application using Next.js and Appwrite ?"
 metaDesc: "In this tutorial we are going to build a movie application using Next.js , Appwrite, tailwind css,..."
 date: "2022-05-01"
 slug: how-to-build-a-movie-application-using-nextjs-and-appwrite--18po
+coverImage: "https://res.cloudinary.com/practicaldev/image/fetch/s--LqYZwopP--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ulkxpqiry4ebax8tmt5l.png"
 published: true
 ---
 

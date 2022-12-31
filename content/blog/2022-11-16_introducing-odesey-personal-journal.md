@@ -4,6 +4,7 @@ metaTitle: "Introducing Odesey: Personal Journal"
 metaDesc: "Hello everyone  I am planning to document my progress for the Atlas hackathon.  In this post , I will..."
 date: "2022-11-16"
 slug: introducing-odesey-personal-journal-4el5
+coverImage: "https://res.cloudinary.com/practicaldev/image/fetch/s--YsTrk-in--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3go3qn3lz27x4nwmtvza.jpg"
 published: true
 ---
 

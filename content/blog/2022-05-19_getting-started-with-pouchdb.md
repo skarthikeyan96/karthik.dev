@@ -4,6 +4,7 @@ metaTitle: "Getting Started with PouchDB"
 metaDesc: "PouchDB is an open-source JavaScript database inspired by Apache CouchDB that is designed to run well..."
 date: "2022-05-19"
 slug: getting-started-with-pouchdb-541k
+coverImage: "null"
 published: true
 ---
 

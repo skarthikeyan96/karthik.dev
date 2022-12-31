@@ -4,6 +4,7 @@ metaTitle: "Javascript Shorts : null and undefined"
 metaDesc: "Hello everyone, In this blog we will be seeing about the javascript’s two famous primitives null and..."
 date: "2022-05-12"
 slug: javascript-shorts-null-and-undefined-32c6
+coverImage: "https://res.cloudinary.com/practicaldev/image/fetch/s--oP4-nWBt--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/tkwsairr2twi30839dvr.png"
 published: true
 ---
 

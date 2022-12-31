@@ -4,6 +4,7 @@ metaTitle: "Getting Started with Web components"
 metaDesc: "This blog is part 1 of the web component series. In this blog , we will learn about web components..."
 date: "2021-09-20"
 slug: getting-started-with-web-components-gcl
+coverImage: "https://res.cloudinary.com/practicaldev/image/fetch/s--7AWxmBoe--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/7m807389fp9qxqey5at0.png"
 published: true
 ---
 

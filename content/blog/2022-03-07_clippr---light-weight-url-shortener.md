@@ -4,6 +4,7 @@ metaTitle: "Clippr - Light weight url shortener"
 metaDesc: "Overview of My Submission   Light weight url shortener built with Next.js , Azure Cosmos DB..."
 date: "2022-03-07"
 slug: clippr-light-weight-url-shortener-560b
+coverImage: "null"
 published: true
 ---
 
