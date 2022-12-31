@@ -1,35 +1,31 @@
 import matter from "gray-matter";
 import Layout from "../../components/Layout";
 import fs from "fs";
-import Link from "next/link";
+import Post from "../../shared/Post";
 
 const Blogs = (props: any) => {
   console.log(props);
+
   return (
     <Layout>
       <div>
-      <h2 className="text-3xl font-bold pb-12"> Blog Posts </h2>
-      {props.posts.map((post:any, index:number) => {
-        return (
-          <Link className="w-full" href={`/blogs/${post.slug}`} key={index}>
-            <div className="w-full mb-8">
-              <div className="flex flex-col justify-between md:flex-row">
-                <h4 className="w-full mb-2 text-lg font-medium text-gray-900 md:text-xl dark:text-gray-100">
-                  {post.frontmatter.title}
-                </h4>
-                {/* <p className="w-32 mb-4 text-left text-gray-500 md:text-right md:mb-0">
-                  0
-                </p> */}
-              </div>
-              <p className="text-gray-600 dark:text-gray-400">
-                {post.frontmatter.metaDesc}
-              </p>
-            </div>
-          </Link>
-        );
-      })}
+        <h2 className="pb-12 font-bold text-3xl md:text-5xl tracking-tight mb-1 text-black text-transparent bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 bg-clip-text mr-4">
+         
+          Blog Posts
+        </h2>
+        {props.posts.map((post: any, index: number) => {
+          return (
+            <Post
+              id={index}
+              title={post.frontmatter.title}
+              description={post.frontmatter.metaDesc}
+              url={post.url}
+              created_at={post.frontmatter.date}
+              slug={post.slug}
+            />
+          );
+        })}
       </div>
-   
     </Layout>
   );
 };
@@ -48,6 +44,9 @@ export async function getStaticProps() {
       frontmatter,
     };
   });
+
+  posts.sort((a, b) => a.frontmatter.date < b.frontmatter.date ? 1 : -1 );
+
 
   return {
     props: {
