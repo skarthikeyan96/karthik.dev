@@ -4,6 +4,7 @@ metaTitle: "How to execute shell commands in Node js ?"
 metaDesc: "This is a quick tutorial on how to execute shell / windows  commands within a nodejs application...."
 date: "2021-07-24"
 slug: how-to-execute-shell-commands-in-node-js-5eaa
+coverImage: "null"
 published: true
 ---
 

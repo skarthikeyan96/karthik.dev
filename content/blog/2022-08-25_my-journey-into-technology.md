@@ -4,6 +4,7 @@ metaTitle: "My Journey into technology"
 metaDesc: "Hello everyone,   I will be sharing with you , my journey towards technology and how I became a..."
 date: "2022-08-25"
 slug: my-journey-into-technology-43k
+coverImage: "https://res.cloudinary.com/practicaldev/image/fetch/s--HFCyiYue--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/vggwib90lrfcnvit5yd4.jpg"
 published: true
 ---
 

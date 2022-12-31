@@ -4,6 +4,7 @@ metaTitle: "JavaScript — Call stack , event loop and callback queue"
 metaDesc: "When I started as a beginner in JS, I had some difficulties in figuring out the concepts which I am..."
 date: "2021-11-23"
 slug: javascript-call-stack-event-loop-and-callback-queue-1ioo
+coverImage: "https://res.cloudinary.com/practicaldev/image/fetch/s--fI4Z5qix--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/1otekafigddpekbbd83h.jpg"
 published: true
 ---
 

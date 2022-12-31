@@ -2,29 +2,10 @@ import type { NextPage } from "next";
 import { useEffect, useState } from "react";
 import Layout from "../components/Layout";
 import Post from "../shared/Post";
-import { fetchBlogPost, renderLoader } from "./blog";
 
 const Home: NextPage = () => {
-  const [loading, setLoading] = useState(false);
-
-  const [recentPosts, setRecentPost] = useState<Array<Post>>();
-
-  const getRecentPosts = async () => {
-    setLoading(true);
-    const posts = await fetchBlogPost();
-    let recent = [];
-
-    for (let i = 0; i < 5; i++) {
-      recent.push(posts[i]);
-    }
-
-    setRecentPost(recent);
-    setLoading(false);
-  };
-
-  useEffect(() => {
-    getRecentPosts();
-  }, []);
+  
+ 
 
   return (
     <Layout>

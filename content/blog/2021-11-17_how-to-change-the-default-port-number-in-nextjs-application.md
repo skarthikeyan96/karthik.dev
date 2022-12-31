@@ -4,6 +4,7 @@ metaTitle: "How to change the default port number in Next.js application"
 metaDesc: "Hello everyone,  In this short blog post , I will be writing about how we can override the default..."
 date: "2021-11-17"
 slug: how-to-change-the-default-port-number-in-nextjs-application-4hm0
+coverImage: "https://res.cloudinary.com/practicaldev/image/fetch/s--n8xTi7UY--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/k535a1hok4rzp73wqy6x.jpg"
 published: true
 ---
 

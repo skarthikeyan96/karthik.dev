@@ -4,6 +4,7 @@ metaTitle: "How to add dark mode to Next.js project using Tailwind ?"
 metaDesc: "In this blog , we will be seeing how to add dark mode to your Next.js project using Tailwind.   let’s..."
 date: "2022-03-21"
 slug: how-to-add-dark-mode-to-nextjs-project-using-tailwind--gj7
+coverImage: "https://res.cloudinary.com/practicaldev/image/fetch/s--V_J9u_rr--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/tvcf8d7u2zy68intj2y0.jpg"
 published: true
 ---
 

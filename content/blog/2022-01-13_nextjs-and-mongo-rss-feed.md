@@ -4,6 +4,7 @@ metaTitle: "Next.js and Mongo RSS feed"
 metaDesc: "Features    Allows user to add rss feed and render the same in the user interface. Report..."
 date: "2022-01-14"
 slug: nextjs-and-mongo-rss-feed-43mn
+coverImage: "null"
 published: true
 ---
 

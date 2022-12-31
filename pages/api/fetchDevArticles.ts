@@ -38,6 +38,7 @@ metaTitle: "${article.title}"
 metaDesc: "${article.description}"
 date: "${moment(new Date(article.published_at)).format('YYYY-MM-DD')}"
 slug: ${article.slug}
+coverImage: "${article.cover_image}"
 published: ${article.published}
 ---
 

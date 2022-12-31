@@ -4,6 +4,7 @@ metaTitle: "Getting Started with Index Signatures"
 metaDesc: "In this blog post we will be learning about a concept in typescript - Index signatures.           ..."
 date: "2022-04-13"
 slug: getting-started-with-index-signatures-58bn
+coverImage: "https://res.cloudinary.com/practicaldev/image/fetch/s--suDdD0XS--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/dlz0kcoq2xzh3qw0bwq4.png"
 published: true
 ---
 

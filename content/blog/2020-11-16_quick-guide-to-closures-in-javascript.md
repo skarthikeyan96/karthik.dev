@@ -4,6 +4,7 @@ metaTitle: "Quick Guide to Closures In Javascript"
 metaDesc: "In this blog,  I will be explaining one of the important features of JS which is Closures and why we..."
 date: "2020-11-16"
 slug: quick-guide-to-closures-in-javascript-3e8
+coverImage: "https://res.cloudinary.com/practicaldev/image/fetch/s--JY-ygJPQ--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/67b22wdbaxs967baryxl.jpg"
 published: true
 ---
 

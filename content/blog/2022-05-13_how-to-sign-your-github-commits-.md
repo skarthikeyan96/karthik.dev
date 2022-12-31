@@ -4,6 +4,7 @@ metaTitle: "How to sign your Github Commits ?"
 metaDesc: "In this blog , we are going to see how we can sign your Github commits and get the verified sign when..."
 date: "2022-05-14"
 slug: how-to-sign-your-github-commits--3ko1
+coverImage: "null"
 published: true
 ---
 

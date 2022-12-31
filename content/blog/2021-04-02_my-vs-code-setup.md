@@ -4,6 +4,7 @@ metaTitle: "My VS Code Setup"
 metaDesc: "In this blog post I will be sharing my VS Code set up i,.e themes and extensions.              Themes..."
 date: "2021-04-02"
 slug: my-vs-code-setup-2ffa
+coverImage: "https://res.cloudinary.com/practicaldev/image/fetch/s--D8DDC6di--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/hz2dqemnwjsoo63t3p68.jpeg"
 published: true
 ---
 

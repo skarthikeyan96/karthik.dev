@@ -18,6 +18,7 @@ const Blog = (props: any) => {
 
         <div className="prose mx-auto dark:prose-invert">
           <h1 className="dark:text-white">{props.frontmatter.title}</h1>
+         { props.frontmatter.coverImage !== "null" && <img src={props.frontmatter.coverImage} alt={props.frontmatter.title}/>}
           <div
             dangerouslySetInnerHTML={{ __html: md().render(props.content) }}
           />

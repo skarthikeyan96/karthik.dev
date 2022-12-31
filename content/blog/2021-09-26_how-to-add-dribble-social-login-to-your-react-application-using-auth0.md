@@ -4,6 +4,7 @@ metaTitle: "How to add Dribble social login to your React Application using Auth
 metaDesc: "Outline:       1. Introduction. 2. Auth0 Setup. 3. Connecting React with Auth0.  4...."
 date: "2021-09-26"
 slug: how-to-add-dribble-social-login-to-your-react-application-using-auth0-3l66
+coverImage: "https://res.cloudinary.com/practicaldev/image/fetch/s--_IEkcagP--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/7l6c72qxuu1ymj1y4bc8.jpg"
 published: true
 ---
 

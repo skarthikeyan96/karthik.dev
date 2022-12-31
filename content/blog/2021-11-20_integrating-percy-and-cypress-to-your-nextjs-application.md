@@ -4,6 +4,7 @@ metaTitle: "Integrating Percy and Cypress to your Next.js application."
 metaDesc: "In this blog post,  we will be seeing how to integrate Percy and Cypress to your Next.js application...."
 date: "2021-11-20"
 slug: integrating-percy-and-cypress-to-your-nextjs-application-3fj0
+coverImage: "https://res.cloudinary.com/practicaldev/image/fetch/s--noDWAgLP--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/w8lxx9cbrz1tsheke45s.jpg"
 published: true
 ---
 

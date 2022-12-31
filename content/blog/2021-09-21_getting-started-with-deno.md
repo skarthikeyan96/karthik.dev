@@ -4,6 +4,7 @@ metaTitle: "Getting started with Deno"
 metaDesc: "In this blog post , we will learn about denojs and  create a simple CLI application that gives the..."
 date: "2021-09-21"
 slug: getting-started-with-deno-9ld
+coverImage: "https://res.cloudinary.com/practicaldev/image/fetch/s--KKD5-j_m--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/q5gqeulhf669kxruby8g.png"
 published: true
 ---
 

@@ -4,6 +4,7 @@ metaTitle: "Appwrite Hackathon Submission - Movie App"
 metaDesc: "Overview of My Submission   Simple Movie application built with Next.js and Appwrite. It..."
 date: "2022-05-01"
 slug: appwrite-hackathon-submission-movie-app-2mnf
+coverImage: "null"
 published: true
 ---
 

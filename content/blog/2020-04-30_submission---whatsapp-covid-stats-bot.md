@@ -4,6 +4,7 @@ metaTitle: "Submission - Whatsapp COVID stats bot"
 metaDesc: "What I built   I built a whatsapp chatbot which gives the information about the current covi..."
 date: "2020-05-01"
 slug: submission-whatsapp-covid-stats-bot-45p6
+coverImage: "null"
 published: true
 ---
 

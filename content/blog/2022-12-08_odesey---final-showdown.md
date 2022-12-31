@@ -4,6 +4,7 @@ metaTitle: "Odesey - Final Showdown"
 metaDesc: "What I built   As part of the hackathon , I built an app which will allow the users to..."
 date: "2022-12-09"
 slug: odesey-final-showdown-37oj
+coverImage: "null"
 published: true
 ---
 
