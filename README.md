@@ -9,13 +9,12 @@ Welcome to the repository for my personal website, karthik.dev! This website is 
 ## Features
 - Blog section featuring my personal thoughts and experiences
 - Project section displaying my open-source contributions and personal projects
-- Contact form for easy communication
 
 ## Getting Started
 1. Clone the repository: `git clone https://github.com/skarthikeyan96/karthik.dev.git`
 2. Install the dependencies: `npm install`
 3. Start the development server: `npm start`
-4. The website should now be running on `http://localhost:8000`
+4. The website should now be running on `http://localhost:3000`
 
 
 ## Author
