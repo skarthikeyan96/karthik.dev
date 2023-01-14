@@ -1,0 +1,26 @@
+{
+  "name": "Karthikeyan Shanmugam",
+  "avatar": "https://pbs.twimg.com/profile_images/1259130918259707904/H7l5s_32_400x400.jpg",
+  "links": [
+    {
+      "title": "Github",
+      "url": "https://github.com/skarthikeyan96"
+    },
+    {
+      "title": "Twitter",
+      "url": "https://twitter.com/karthik_coder"
+    },
+    {
+        "title": "Mastodon",
+        "url": "https://fosstodon.org/@karthik_codes"
+    },
+    {
+        "title": "Hashnode",
+        "url" : "https://imkarthikeyans.hashnode.dev/"
+    },
+    {
+        "title": "Dev.to",
+        "url" : "https://dev.to/imkarthikeyan"
+    }
+  ]
+}
