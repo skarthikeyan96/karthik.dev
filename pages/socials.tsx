@@ -5,7 +5,14 @@ import Link from "next/link";
 
 const Socials = () => {
   return (
-    <div className="h-screen text-white bg-[url('https://user-images.githubusercontent.com/23126394/212474186-26955ec8-07ee-4cb3-887a-dd8b64a96efc.png')]">
+    <div className="h-screen text-white 
+        bg-no-repeat
+        bg-[url('https://res.cloudinary.com/responsivebreakpoints/image/upload/ar_1:1,c_fill,g_auto/c_scale,w_767/v1673808524/212474186-26955ec8-07ee-4cb3-887a-dd8b64a96efc_ezckvw.png')]
+        
+        md:bg-[url('https://res.cloudinary.com/responsivebreakpoints/image/upload/ar_16:9,c_fill,g_auto/c_scale,w_720/v1673808524/212474186-26955ec8-07ee-4cb3-887a-dd8b64a96efc_ezckvw.png')]
+        lg:bg-[url('https://res.cloudinary.com/responsivebreakpoints/image/upload/c_scale,w_1400/v1673808524/212474186-26955ec8-07ee-4cb3-887a-dd8b64a96efc_ezckvw.png')]
+        "
+        >
       <div className="flex justify-end pt-4 mr-8 text-slate-400">
         <Link href="/">
           Back to site
@@ -25,6 +32,7 @@ const Socials = () => {
             <a
               href={link.url}
               target="_blank"
+              key={index}
               rel="noopener noreferrer"
               className="flex items-center p-4 w-full rounded-md hover:scale-105 transition-all mb-6 max-w-3xl border border-black bg-white text-black"
             >
