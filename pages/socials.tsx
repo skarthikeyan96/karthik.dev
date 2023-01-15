@@ -5,12 +5,16 @@ import Link from "next/link";
 
 const Socials = () => {
   return (
-    <div className="h-screen text-white 
+    <div className=" text-white 
         bg-no-repeat
         bg-[url('https://res.cloudinary.com/responsivebreakpoints/image/upload/ar_1:1,c_fill,g_auto/c_scale,w_767/v1673808524/212474186-26955ec8-07ee-4cb3-887a-dd8b64a96efc_ezckvw.png')]
-        
+        h-screen
+        md:bg-cover
+        md:h-screen
         md:bg-[url('https://res.cloudinary.com/responsivebreakpoints/image/upload/ar_16:9,c_fill,g_auto/c_scale,w_720/v1673808524/212474186-26955ec8-07ee-4cb3-887a-dd8b64a96efc_ezckvw.png')]
         lg:bg-[url('https://res.cloudinary.com/responsivebreakpoints/image/upload/c_scale,w_1400/v1673808524/212474186-26955ec8-07ee-4cb3-887a-dd8b64a96efc_ezckvw.png')]
+        lg:bg-cover
+        lg:h-screen
         "
         >
       <div className="flex justify-end pt-4 mr-8 text-slate-400">
