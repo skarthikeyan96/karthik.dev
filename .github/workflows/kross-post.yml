@@ -1,0 +1,31 @@
+name: Kross post github actions
+on:
+  pull_request:
+    branches: ["*"]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [16.x]
+
+    steps:
+      - uses: actions/checkout@v3
+      - uses: skarthikeyan96/kross-post-gh-actions@0.0.2
+        with:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          DEV_TO_API_TOKEN: ${{secrets.DEV_TO_API_TOKEN}}
+      # - name: Use Node.js ${{ matrix.node-version }}
+      #   uses: actions/setup-node@v3
+      #   with:
+      #     node-version: ${{ matrix.node-version }}
+      # - name: create env file
+      #   run: |
+      #     touch .env
+      #     echo DEV_TO_API=${{ secrets.DEV_TO_API_KEY }} >> .env
+      # - run: npm install
+      # - run: npm run build --if-present
+      # - run: node index.js
