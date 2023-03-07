@@ -21,10 +21,6 @@ const navItems = [
     name: "projects",
     route: "/projects",
   },
-//   {
-//     name: "experiments",
-//     route: "/experiments",
-//   },
   {
     name: "resume",
     route: "https://peerlist.io/karthik_coder", // link to the peerlist or google docs
