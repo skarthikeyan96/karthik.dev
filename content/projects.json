@@ -17,7 +17,7 @@
         "id:": "3",
         "title": "Kross post",
         "description": "A simple application to cross post articles across dev.to, hashnode and medium.",
-        "url": "https://github.com/skarthikeyan96/kross-post-typescript",
+        "url": "https://github.com/skarthikeyan96/kross-post-typescript"
     },
     {
         "id": "4",
@@ -36,7 +36,7 @@
         "id": "6",
         "title": "Blog Stats",
         "description": "Showcase your blog's metrics on your Github Readme.",
-        "url": "https://github.com/skarthikeyan96/blog-stats/blob/main/README.md",
+        "url": "https://github.com/skarthikeyan96/blog-stats/blob/main/README.md"
     }
   
 ]
