@@ -1,25 +1,25 @@
 import Image from "next/image";
-import Layout from "../components/Layout";
 import links from "../content/links.json";
 import Link from "next/link";
 
 const Socials = () => {
-  return (
-    <div className=" text-white 
-        bg-no-repeat
-        bg-[url('https://res.cloudinary.com/responsivebreakpoints/image/upload/ar_1:1,c_fill,g_auto/c_scale,w_767/v1673808524/212474186-26955ec8-07ee-4cb3-887a-dd8b64a96efc_ezckvw.png')]
-        h-screen
-        md:bg-cover
-        md:bg-[url('https://res.cloudinary.com/responsivebreakpoints/image/upload/ar_16:9,c_fill,g_auto/c_scale,w_720/v1673808524/212474186-26955ec8-07ee-4cb3-887a-dd8b64a96efc_ezckvw.png')]
-        lg:bg-[url('https://res.cloudinary.com/responsivebreakpoints/image/upload/c_scale,w_1400/v1673808524/212474186-26955ec8-07ee-4cb3-887a-dd8b64a96efc_ezckvw.png')]
+  const cloudinaryUserName = process.env.NEXT_PUBLIC_CLOUDINARY_USERNAME;
+
+  const bgStyles = `text-white 
+  bg-no-repeat
+  bg-[url(https://res.cloudinary.com/${cloudinaryUserName}/image/upload/ar_1:1,c_fill,g_auto/c_scale,w_767/v1673808524/212474186-26955ec8-07ee-4cb3-887a-dd8b64a96efc_iqipf0.png)]
+  h-screen
+  md:bg-cover
+  md:bg-[url(https://res.cloudinary.com/${cloudinaryUserName}/image/upload/ar_16:9,c_fill,g_auto/c_scale,w_720/v1673808524/212474186-26955ec8-07ee-4cb3-887a-dd8b64a96efc_iqipf0.png)]
+        lg:bg-[url(https://res.cloudinary.com/${cloudinaryUserName}/image/upload/c_scale,w_1400/v1673808524/212474186-26955ec8-07ee-4cb3-887a-dd8b64a96efc_iqipf0.png)]
         lg:bg-cover
         lg:h-screen
-        "
-        >
+       
+  `;
+  return (
+    <div className={bgStyles}>
       <div className="flex justify-end pt-4 mr-8 text-slate-400">
-        <Link href="/">
-          Back to site
-        </Link>
+        <Link href="/">Back to site</Link>
       </div>
 
       <div className="flex items-center flex-col mx-auto w-full justify-center px-8 py-12">
