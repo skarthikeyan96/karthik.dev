@@ -4,4 +4,5 @@ interface Post {
     url: string,
     created_at?: Date
     id: number 
+    slug: string
 }
