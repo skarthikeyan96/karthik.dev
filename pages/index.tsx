@@ -36,7 +36,7 @@ const Home: NextPage = () => {
           <h2 className="mb-4 pt-1 text-lg  tracking-wide">
             Developer | Gamer | Technical Writer
           </h2>
-          <p className="text-gray-600  mb-16">
+          <p className="text-gray-600 dark:text-gray-400 mb-16">
             I am a software developer who loves to solve problems using code and
             to share knowledge by writing technical blogs.
           </p>
