@@ -44,7 +44,7 @@ In the end , all the pages are done and delivered.
 
 ## Preview
 
-<img width="1440" alt="image" src="https://github.com/skarthikeyan96/entertainment-web/assets/23126394/98d0f45e-be40-46f0-b4cf-6d645d0a0e2b">
+![image](https://github.com/skarthikeyan96/entertainment-web/assets/23126394/98d0f45e-be40-46f0-b4cf-6d645d0a0e2b)
 
 ## Setup 
 
