@@ -5,17 +5,7 @@ import Link from "next/link";
 const Socials = () => {
   const cloudinaryUserName = process.env.NEXT_PUBLIC_CLOUDINARY_USERNAME;
 
-  const bgStyles = `text-white 
-  bg-no-repeat
-  bg-[url(https://res.cloudinary.com/${cloudinaryUserName}/image/upload/ar_1:1,c_fill,g_auto/c_scale,w_767/v1673808524/212474186-26955ec8-07ee-4cb3-887a-dd8b64a96efc_iqipf0.png)]
-  h-screen
-  md:bg-cover
-  md:bg-[url(https://res.cloudinary.com/${cloudinaryUserName}/image/upload/ar_16:9,c_fill,g_auto/c_scale,w_720/v1673808524/212474186-26955ec8-07ee-4cb3-887a-dd8b64a96efc_iqipf0.png)]
-        lg:bg-[url(https://res.cloudinary.com/${cloudinaryUserName}/image/upload/c_scale,w_1400/v1673808524/212474186-26955ec8-07ee-4cb3-887a-dd8b64a96efc_iqipf0.png)]
-        lg:bg-cover
-        lg:h-screen
-       
-  `;
+  const bgStyles = `bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% `;
   return (
     <div className={bgStyles}>
       <div className="flex justify-end pt-4 mr-8 text-slate-400">
