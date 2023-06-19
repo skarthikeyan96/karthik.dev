@@ -25,11 +25,7 @@ const navItems = [
     name: "resume",
     route: "https://peerlist.io/karthik_coder", // link to the peerlist or google docs
     setTarget: true
-  },
-  {
-    name: "socials",
-    route: "/socials",
-  },
+  }
 ];
 
 const Layout = ({ children }: Layout) => {
