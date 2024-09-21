@@ -1,7 +1,7 @@
 ---
 title: React tailwind dashboard
 slug: react_tailwind_dashboard
-liveUrl: "http://react-tailwind-dashboard-peach.vercel.app/"
+liveUrl: "https://react-tailwind-dashboard-eight.vercel.app/"
 description: "Dashboard UI built with react, tailwind and recharts"
 ---
 
